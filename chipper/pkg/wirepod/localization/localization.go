@@ -81,7 +81,7 @@ var ALL_STR []string = []string{
 
 var texts = map[string][]string{
 	//  key                 			en-US   it-IT   es-ES    fr-FR    de-DE    pl-PL    zh-CN    nl-NL
-	STR_WEATHER_IN:                     {" in ", " a ", " en ", " en ", " in ", " w ", " 的 "},
+	STR_WEATHER_IN:                     {" in ", " a ", " en ", " en ", " in ", " w ", " 的 ", " in "},
 	STR_WEATHER_FORECAST:               {"forecast", "previsioni", "pronóstico", "prévisions", "wettervorhersage", "prognoza", "预报", "weersverwachting"},
 	STR_WEATHER_TOMORROW:               {"tomorrow", "domani", "mañana", "demain", "morgen", "jutro", "明天", "morgen"},
 	STR_WEATHER_THE_DAY_AFTER_TOMORROW: {"day after tomorrow", "dopodomani", "el día después de mañana", "lendemain de demain", "am tag nach morgen", "pojutrze", "后天", "overmorgen"},

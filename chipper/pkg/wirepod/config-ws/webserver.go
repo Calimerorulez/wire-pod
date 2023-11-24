@@ -251,6 +251,7 @@ func apiHandler(w http.ResponseWriter, r *http.Request) {
 		}
 		if !matched {
 			fmt.Fprint(w, "error: language not valid")
+			fmt.Fprint(w, lang)
 			return
 		}
 		// check if language is downloaded already
